@@ -1,0 +1,12 @@
+baseurl = "http://localhost/"
+contentdir = "content"
+languageCode = "en-us"
+title = "Docker Docs"
+theme = "docker-docs"
+canonifyurls = false
+relativeURLs = true
+
+[blackfriday]
+  fractions = false
+  plainIdAnchors = true
+  gitHubLinkEval = true
